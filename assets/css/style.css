@@ -1,0 +1,355 @@
+---
+
+---
+
+@import "{{ site.theme }}";
+
+html
+{
+	height: 100%;
+	background: #222222;
+}
+
+body
+{	
+	height: 100%;
+	margin: 0 !important;
+    padding: 0 !important;
+}
+
+header
+{
+	margin: 0 !important;
+    padding: 0 !important;
+}
+
+#navigation
+{
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	background-color: #222222;
+}
+
+#navigation .container
+{
+	height: 100%;
+	width: 81%;
+	display: table;
+
+	vertical-align: middle;
+}
+
+ul.centerUL
+{
+	margin: auto;
+	width: 81%;
+	height: 100%;
+
+	vertical-align: middle;
+}
+
+.centerUL li
+{	
+	height: 100%;
+	display: inline-block;
+	color: white;
+	width: 27%;
+	font-size: 25px;
+	font-family: 'Khand-bold', sans-serif;
+	padding-top: 15px;
+}
+
+.centerUL li a:link 
+{
+	color: white;
+	text-decoration: none;
+}
+
+.centerUL li a:visited 
+{
+	color: white;
+	text-decoration: none;
+}
+
+#navigation .logo-frame
+{
+	float: left;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+
+	margin-left: 50px;
+}
+
+#navigation .logo
+{
+	max-height: 60px;
+	width: 60px;
+	vertical-align: middle;
+}
+
+#home
+{
+	min-height: 100%;
+	min-width: 100%;
+	top: 0;
+	left: 0;
+
+	background: url(../images/DominoBG-dark2.png) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+  	margin-bottom: 0;
+}
+
+#home .logo
+{
+	width: 32%;
+	height: 32%;
+	display: block;
+	margin: auto;
+	padding-top: 10%;
+}
+
+.title
+{
+	margin-top: 20px;
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Khand-bold', sans-serif;
+	color: white;
+	/*-webkit-text-stroke: 2px #530000;*/
+}
+
+#team
+{
+	width: 100%;
+	background-color: #222222;
+
+	margin-top: 0;
+
+	overflow: auto;
+}
+
+#team-anchor
+{
+	position: absolute;
+	top: -40px;
+}
+
+#members
+{
+	width: 100%;
+	background-color: #222222;
+}
+
+.clear
+{
+	clear: both;
+	float: none;
+}
+
+#contact
+{
+	margin-top: 40px;
+
+	width: 100%;
+	height: 400px;
+	background-color: #222222;
+
+	top: 0;
+	left: 0;
+
+	background: url(../images/Munich-dark.png) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+  	margin-bottom: 0;
+}
+
+.section-title
+{
+	display: inline-block;
+	color: white;
+	font-size: 50px;
+	font-family: 'Khand-bold', sans-serif;
+}
+
+#team .section-title
+{
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+#members .section-title
+{
+	margin-top: 50px;
+	margin-right: 50px;
+	float: right;
+}
+
+.separator
+{
+	color: red;
+	width: 50%;
+	height: 1px;
+    border: 0;
+    border-top: 1px solid #878787;
+}
+
+#team .separator
+{
+	margin-left: 30px;
+}
+
+#team .team-content
+{
+	margin-top: 20px;
+	width: 100%;
+	height: 100%;
+}
+
+#team .logo-container
+{
+	width: 50%;
+	float: left;
+}
+
+#team .logo
+{
+	width: 60%;
+	height: 60%;
+	display: block;
+	margin: auto;
+	padding-top: 50px;
+}
+
+#team .team-description
+{
+	width: 45%;
+	font-size: 30px;
+	font-family: 'Khand-regular', sans-serif;
+	color: white;
+	float: left;
+}
+
+.team-bg
+{
+	min-height: 100%;
+	min-width: 100%;
+	top: 0;
+	left: 0;
+
+	background: url(../images/logo-white.png) no-repeat center center;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#members .separator
+{
+	margin-right: 30px;
+	float: right;
+}
+
+.member-description
+{
+	margin: 0 auto;
+
+	color: white;
+	font-family: 'Khand-bold', sans-serif;
+}
+
+.member-description .member-name
+{
+	font-size: 35px;
+}
+
+.member-description .member-title
+{
+	margin-top: -10px;
+	font-size: 25px;
+	color: #DCDBDA;
+}
+
+.member-list
+{
+	width: 70%;
+	height: 100%;
+	/*margin: 0 auto;*/
+	margin-left: 22%;
+}
+
+.member-list .member-row .member-description
+{
+	margin-top: 20px;
+	width: 50%;
+}
+
+.member-list .member-row .member-description:nth-child(1)
+{
+	float: left;
+}
+
+.member-list .member-row .member-description:nth-child(2)
+{
+	height: 75%;
+	float: left;
+}
+
+#contact .email
+{
+	margin-left: 120px;
+	margin-top: 230px;
+}
+
+#contact .section-title
+{
+	margin-top: 10px;
+	margin-left: 50px;
+	height: 50px;
+
+	text-align: center;
+}
+
+#contact .icon
+{
+	height: 35px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#contact .text
+{
+	height: 100%;
+
+	font-size: 33px;
+	font-family: 'Khand-semibold', sans-serif;
+	color: white;
+
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 0px;
+}
+
+.content
+{
+	width: 100%;
+	height: 100%;
+	background-color: #222222;
+}
+
+#club
+{
+	display: block;
+	position: relative;
+	height: 0px;
+    top: -60px;
+}
